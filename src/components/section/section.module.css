@@ -1,0 +1,9 @@
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgb(138, 223, 223);
+}
+
+.title {
+  padding: 5px;
+}
