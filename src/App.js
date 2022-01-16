@@ -11,7 +11,7 @@ class App extends React.Component {
   addFeedback = params => {
     this.setState(prevState => {
       return {
-        [params]: (prevState[params] += 1),
+        [params]: prevState[params] + 1,
       };
     });
   };
